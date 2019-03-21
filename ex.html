@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery-1.11.2.min.js"></script>
+
+</head>
+<body>
+<div class="main">
+    <div class="box3 fix">
+        <div class="center rel auto">
+             <div class="li1" id="li1">
+                 <a href="#" class="abs more fw" id="wen1"><span>①</span>客户与商务沟通</a>
+                 <div class="img abs" id="img1"><img src="images/lc_06.png" class="auto"/></div>
+                 <div class="img1" id="tu1"><img src="images/li4_h_03 .png"/></div>
+             </div>
+             <div class="li1" id="li2">
+                 <div class="img1" id="tu2"><img src="images/li2_h_03.png"/></div>
+                 <div class="img abs" id="img2"><img src="images/lc_03.png" class="auto"/></div>
+                 <a href="#" class="abs more fw" id="wen2"><span>②</span>资深设计人员查看现场<br/>进行流水线的设计</a>
+             </div>
+             <div class="li1" id="li3">
+                 <div class="img1" id="tu3"><img src="images/li3_h_03.png"/></div>
+                 <div class="img abs" id="img3"><img src="images/lc_12.png" class="auto"/></div>
+                 <a href="#" class="abs more fw" id="wen3"><span>③</span>商务报价、签单</a>
+             </div>
+             <div class="li1" id="li4">
+                 <div class="img1" id="tu4"><img src="images/lc_line_h_03.png" /></div>
+                 <div class="img abs" id="img4"><img src="images/lc_19.png" class="auto"/></div>
+                 <a href="#" class="abs more fw" id="wen4"><span>④</span>生产、备料、<br/>设备运输</a>
+             </div>
+             <div class="li1" id="li5">
+                 <div class="img1" id="tu5"><img src="images/li6_h_03.png"/></div>
+                 <div class="img abs" id="img5"><img src="images/lc_22.png" class="auto"/></div>
+                 <a href="#" class="abs more fw" id="wen5"><span>⑤</span>安装、调试</a>
+             </div>
+             <div class="li1" id="li6">
+                 <div class="img1" id="tu6"><img src="images/li5_h_03.png"/></div>
+                 <div class="img abs" id="img6"><img src="images/lc_11.png" class="auto"/></div>
+                 <a href="#" class="abs more fw" id="wen6"><span>⑥</span>客户验收</a>
+             </div>
+             <script>
+			      $('#li1').hover(function(){
+					  $("#tu1").animate({'width':'138px'},500);
+					  $(this).addClass("li");  
+					   },
+					   function(){
+                             $("#tu1").animate({'width':'0px'},500);
+							 $(this).removeClass("li");
+						   }
+				   ) 
+				   $('#li2').hover(function(){
+						$("#tu2").slideDown();
+						$(this).addClass("li");  
+					   },
+					   function(){
+							$("#tu2").slideUp();
+							 $(this).removeClass("li");
+						   }
+				   ) 
+				   $('#li3').hover(function(){
+					  $("#tu3").slideDown();
+					  $(this).addClass("li");  
+					   },
+					   function(){
+							 $("#tu3").slideUp();
+							 $(this).removeClass("li");
+						   }
+				   ) 
+				   $('#li4').hover(function(){
+					  $("#tu4").animate({'width':'138px'},500);
+					  $(this).addClass("li");  
+					   },
+					   function(){
+							 $("#tu4").animate({'width':'0px'},500);
+							 $(this).removeClass("li");
+						   }
+				   ) 
+				   $('#li5').hover(function(){
+					  $("#tu5").slideDown();
+					  $(this).addClass("li");  
+					   },
+					   function(){
+							 $("#tu5").slideUp();
+							 $(this).removeClass("li");
+						   }
+				   ) 
+                  $('#li6').hover(function(){
+					  $("#tu6").slideDown();
+					  $(this).addClass("li");  
+					   },
+					   function(){
+							 $("#tu6").slideUp();
+							 $(this).removeClass("li");
+						   }
+				   ) 
+			</script>
+        </div>
+    </div>
+  </div>
+<!--footer end-->
+</body>
+</html>
